@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório das Redes Sociais</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="Common.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Relatório das redes sociais</h1>
+        <nav>
+            <a href="#">Mundo</a>
+            <a href="#">Minha escola</a>
+        </nav>
+    </header>
+
+    <div class="alert">
+        <p>Você sabia que o mundo tem <span class="highlight">7.888 bilhões</span> de pessoas e que aproximadamente <span class="highlight">5.04 bilhões</span> estão conectadas em alguma rede social e passam em média <span class="highlight">2 horas e 38 minutos</span> conectadas. Isso significa que aproximadamente <span class="highlight">63.89%</span> de pessoas estão conectadas em alguma rede social.</p>
+    </div>
+
+    <div class="charts">
+        <h2 class="chart-title">Redes sociais com mais usuários no mundo</h2>
+        <div id="grafico">
+            <canvas id="myChart"></canvas>
+        </div>
+        <p id="frase"> Nome das redes sociais</p>
+    </div>
+
+    <footer class="footer">
+        Desenvolvido por <span class="highlight-footer">Elizane Vieira</span>
+    </footer>
+</body>
+</html>
